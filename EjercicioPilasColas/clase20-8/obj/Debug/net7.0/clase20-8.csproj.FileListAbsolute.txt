@@ -1,0 +1,30 @@
+C:\Users\Pertu\Desktop\PROG II\Trabajos en clase\InterfazEjercicios\clase20-8\bin\Debug\net7.0\clase20-8.exe
+C:\Users\Pertu\Desktop\PROG II\Trabajos en clase\InterfazEjercicios\clase20-8\bin\Debug\net7.0\clase20-8.deps.json
+C:\Users\Pertu\Desktop\PROG II\Trabajos en clase\InterfazEjercicios\clase20-8\bin\Debug\net7.0\clase20-8.runtimeconfig.json
+C:\Users\Pertu\Desktop\PROG II\Trabajos en clase\InterfazEjercicios\clase20-8\bin\Debug\net7.0\clase20-8.dll
+C:\Users\Pertu\Desktop\PROG II\Trabajos en clase\InterfazEjercicios\clase20-8\bin\Debug\net7.0\clase20-8.pdb
+C:\Users\Pertu\Desktop\PROG II\Trabajos en clase\InterfazEjercicios\clase20-8\obj\Debug\net7.0\clase20-8.csproj.AssemblyReference.cache
+C:\Users\Pertu\Desktop\PROG II\Trabajos en clase\InterfazEjercicios\clase20-8\obj\Debug\net7.0\clase20-8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pertu\Desktop\PROG II\Trabajos en clase\InterfazEjercicios\clase20-8\obj\Debug\net7.0\clase20-8.AssemblyInfoInputs.cache
+C:\Users\Pertu\Desktop\PROG II\Trabajos en clase\InterfazEjercicios\clase20-8\obj\Debug\net7.0\clase20-8.AssemblyInfo.cs
+C:\Users\Pertu\Desktop\PROG II\Trabajos en clase\InterfazEjercicios\clase20-8\obj\Debug\net7.0\clase20-8.csproj.CoreCompileInputs.cache
+C:\Users\Pertu\Desktop\PROG II\Trabajos en clase\InterfazEjercicios\clase20-8\obj\Debug\net7.0\clase20-8.dll
+C:\Users\Pertu\Desktop\PROG II\Trabajos en clase\InterfazEjercicios\clase20-8\obj\Debug\net7.0\refint\clase20-8.dll
+C:\Users\Pertu\Desktop\PROG II\Trabajos en clase\InterfazEjercicios\clase20-8\obj\Debug\net7.0\clase20-8.pdb
+C:\Users\Pertu\Desktop\PROG II\Trabajos en clase\InterfazEjercicios\clase20-8\obj\Debug\net7.0\clase20-8.genruntimeconfig.cache
+C:\Users\Pertu\Desktop\PROG II\Trabajos en clase\InterfazEjercicios\clase20-8\obj\Debug\net7.0\ref\clase20-8.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\EjercicioPilasColas\clase20-8\bin\Debug\net7.0\clase20-8.exe
+C:\Users\Pertu\Desktop\RepoEjerciosClases\EjercicioPilasColas\clase20-8\bin\Debug\net7.0\clase20-8.deps.json
+C:\Users\Pertu\Desktop\RepoEjerciosClases\EjercicioPilasColas\clase20-8\bin\Debug\net7.0\clase20-8.runtimeconfig.json
+C:\Users\Pertu\Desktop\RepoEjerciosClases\EjercicioPilasColas\clase20-8\bin\Debug\net7.0\clase20-8.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\EjercicioPilasColas\clase20-8\bin\Debug\net7.0\clase20-8.pdb
+C:\Users\Pertu\Desktop\RepoEjerciosClases\EjercicioPilasColas\clase20-8\obj\Debug\net7.0\clase20-8.csproj.AssemblyReference.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\EjercicioPilasColas\clase20-8\obj\Debug\net7.0\clase20-8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pertu\Desktop\RepoEjerciosClases\EjercicioPilasColas\clase20-8\obj\Debug\net7.0\clase20-8.AssemblyInfoInputs.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\EjercicioPilasColas\clase20-8\obj\Debug\net7.0\clase20-8.AssemblyInfo.cs
+C:\Users\Pertu\Desktop\RepoEjerciosClases\EjercicioPilasColas\clase20-8\obj\Debug\net7.0\clase20-8.csproj.CoreCompileInputs.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\EjercicioPilasColas\clase20-8\obj\Debug\net7.0\clase20-8.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\EjercicioPilasColas\clase20-8\obj\Debug\net7.0\refint\clase20-8.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\EjercicioPilasColas\clase20-8\obj\Debug\net7.0\clase20-8.pdb
+C:\Users\Pertu\Desktop\RepoEjerciosClases\EjercicioPilasColas\clase20-8\obj\Debug\net7.0\clase20-8.genruntimeconfig.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\EjercicioPilasColas\clase20-8\obj\Debug\net7.0\ref\clase20-8.dll

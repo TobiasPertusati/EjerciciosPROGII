@@ -49,6 +49,9 @@ INSERT INTO Facturas (fecha,formaPago,cliente)VALUES (GETDATE(),1,'Jeremias Lucc
 
 INSERT INTO detalleFacturas (nro_factura,id_articulo,cantidad)VALUES (1,1,3)
 
+
+
+
 CREATE PROCEDURE SP_GETALL_FACTURAS
 AS
 BEGIN

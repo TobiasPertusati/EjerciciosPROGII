@@ -46,8 +46,7 @@
               "RelativeToolTip": "Ejercicio1-5\\Dominio\\Articulo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T19:26:30.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T19:26:30.212Z"
             },
             {
               "$type": "Document",
@@ -57,7 +56,7 @@
               "RelativeDocumentMoniker": "Ejercicio1-5\\Dominio\\FormaPago.cs",
               "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5\\Ejercicio1-5\\Dominio\\FormaPago.cs",
               "RelativeToolTip": "Ejercicio1-5\\Dominio\\FormaPago.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T19:26:27.686Z",
               "EditorCaption": ""
@@ -72,8 +71,7 @@
               "RelativeToolTip": "Ejercicio1-5\\Dominio\\Factura.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T19:26:25.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T19:26:25.056Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "Ejercicio1-5\\Datos\\AccesoADatos\\AccesoADatos.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T19:25:42.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T19:25:42.047Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "Ejercicio1-5\\Datos\\FacturaRepositoryADO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T19:25:29.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T19:25:29.082Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "Ejercicio1-5\\Dominio\\DetalleFacura.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T19:24:59.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T19:24:59.325Z"
             }
           ]
         }

@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tobia\\Desktop\\TUP\\Segundo Cuatrimestre\\PROGRAMACIÓN II\\UNIDAD 1\\Ejercicio1-5\\Ejercicio1-5\\Ejercicio1-5.csproj",
+      "projectUniqueName": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5\\Ejercicio1-5\\Ejercicio1-5.csproj",
       "projectName": "Ejercicio1-5",
-      "projectPath": "C:\\Users\\tobia\\Desktop\\TUP\\Segundo Cuatrimestre\\PROGRAMACIÓN II\\UNIDAD 1\\Ejercicio1-5\\Ejercicio1-5\\Ejercicio1-5.csproj",
+      "projectPath": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5\\Ejercicio1-5\\Ejercicio1-5.csproj",
       "packagesPath": "C:\\Users\\tobia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tobia\\Desktop\\TUP\\Segundo Cuatrimestre\\PROGRAMACIÓN II\\UNIDAD 1\\Ejercicio1-5\\Ejercicio1-5\\obj\\",
+      "outputPath": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5\\Ejercicio1-5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tobia\\AppData\\Roaming\\NuGet\\NuGet.Config",

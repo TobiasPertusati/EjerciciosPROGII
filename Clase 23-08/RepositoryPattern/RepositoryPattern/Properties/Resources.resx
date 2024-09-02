@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="StrConnection" xml:space="preserve">
-    <value>Data Source=PERTU04\SQLEXPRESS;Initial Catalog=Almacen;Integrated Security=True;Encrypt=False;</value>
+    <value>Data Source=PERTU04\SQLEXPRESS;Initial Catalog=db_almacen;Integrated Security=True;Encrypt=False;</value>
   </data>
 </root>

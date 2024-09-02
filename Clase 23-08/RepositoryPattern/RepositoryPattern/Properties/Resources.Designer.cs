@@ -61,7 +61,7 @@ namespace RepositoryPattern.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Data Source=PERTU04\SQLEXPRESS;Initial Catalog=Almacen;Integrated Security=True;Encrypt=False;.
+        ///   Busca una cadena traducida similar a Data Source=PERTU04\SQLEXPRESS;Initial Catalog=db_almacen;Integrated Security=True;Encrypt=False;.
         /// </summary>
         internal static string StrConnection {
             get {

@@ -22,3 +22,4 @@ C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Clase 23-08\RepositoryPattern\R
 C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Clase 23-08\RepositoryPattern\RepositoryPattern\obj\Debug\net7.0\RepositoryPattern.pdb
 C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Clase 23-08\RepositoryPattern\RepositoryPattern\obj\Debug\net7.0\RepositoryPattern.genruntimeconfig.cache
 C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Clase 23-08\RepositoryPattern\RepositoryPattern\obj\Debug\net7.0\ref\RepositoryPattern.dll
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Clase 23-08\RepositoryPattern\RepositoryPattern\obj\Debug\net7.0\RepositoryPattern.sourcelink.json

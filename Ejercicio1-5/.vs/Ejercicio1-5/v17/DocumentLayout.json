@@ -1,17 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tobia\\Desktop\\TUP\\Segundo Cuatrimestre\\PROGRAMACI\u00D3N II\\UNIDAD 1\\Ejercicio1-5\\",
+  "WorkspaceRootPath": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58A7B294-B6AF-4F95-892F-9FD8835D4CD6}|Ejercicio1-5\\Ejercicio1-5.csproj|c:\\users\\tobia\\desktop\\tup\\segundo cuatrimestre\\programaci\u00F3n ii\\unidad 1\\ejercicio1-5\\ejercicio1-5\\servicios\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58A7B294-B6AF-4F95-892F-9FD8835D4CD6}|Ejercicio1-5\\Ejercicio1-5.csproj|solutionrelative:ejercicio1-5\\servicios\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58A7B294-B6AF-4F95-892F-9FD8835D4CD6}|Ejercicio1-5\\Ejercicio1-5.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\ejercicio1-5\\ejercicio1-5\\dominio\\formapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58A7B294-B6AF-4F95-892F-9FD8835D4CD6}|Ejercicio1-5\\Ejercicio1-5.csproj|solutionrelative:ejercicio1-5\\dominio\\formapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58A7B294-B6AF-4F95-892F-9FD8835D4CD6}|Ejercicio1-5\\Ejercicio1-5.csproj|c:\\users\\tobia\\desktop\\tup\\segundo cuatrimestre\\programaci\u00F3n ii\\unidad 1\\ejercicio1-5\\ejercicio1-5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58A7B294-B6AF-4F95-892F-9FD8835D4CD6}|Ejercicio1-5\\Ejercicio1-5.csproj|solutionrelative:ejercicio1-5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58A7B294-B6AF-4F95-892F-9FD8835D4CD6}|Ejercicio1-5\\Ejercicio1-5.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\ejercicio1-5\\ejercicio1-5\\datos\\accesoadatos\\accesoadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58A7B294-B6AF-4F95-892F-9FD8835D4CD6}|Ejercicio1-5\\Ejercicio1-5.csproj|solutionrelative:ejercicio1-5\\datos\\accesoadatos\\accesoadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58A7B294-B6AF-4F95-892F-9FD8835D4CD6}|Ejercicio1-5\\Ejercicio1-5.csproj|c:\\users\\tobia\\desktop\\tup\\segundo cuatrimestre\\programaci\u00F3n ii\\unidad 1\\ejercicio1-5\\ejercicio1-5\\datos\\facturarepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58A7B294-B6AF-4F95-892F-9FD8835D4CD6}|Ejercicio1-5\\Ejercicio1-5.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\ejercicio1-5\\ejercicio1-5\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58A7B294-B6AF-4F95-892F-9FD8835D4CD6}|Ejercicio1-5\\Ejercicio1-5.csproj|solutionrelative:ejercicio1-5\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58A7B294-B6AF-4F95-892F-9FD8835D4CD6}|Ejercicio1-5\\Ejercicio1-5.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\ejercicio1-5\\ejercicio1-5\\dominio\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58A7B294-B6AF-4F95-892F-9FD8835D4CD6}|Ejercicio1-5\\Ejercicio1-5.csproj|solutionrelative:ejercicio1-5\\dominio\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58A7B294-B6AF-4F95-892F-9FD8835D4CD6}|Ejercicio1-5\\Ejercicio1-5.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\ejercicio1-5\\ejercicio1-5\\dominio\\detallefacura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58A7B294-B6AF-4F95-892F-9FD8835D4CD6}|Ejercicio1-5\\Ejercicio1-5.csproj|solutionrelative:ejercicio1-5\\dominio\\detallefacura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58A7B294-B6AF-4F95-892F-9FD8835D4CD6}|Ejercicio1-5\\Ejercicio1-5.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\ejercicio1-5\\ejercicio1-5\\datos\\facturarepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58A7B294-B6AF-4F95-892F-9FD8835D4CD6}|Ejercicio1-5\\Ejercicio1-5.csproj|solutionrelative:ejercicio1-5\\datos\\facturarepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,41 +38,80 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Segundo Cuatrimestre\\PROGRAMACI\u00D3N II\\UNIDAD 1\\Ejercicio1-5\\Ejercicio1-5\\Program.cs",
-              "RelativeDocumentMoniker": "Ejercicio1-5\\Program.cs",
-              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Segundo Cuatrimestre\\PROGRAMACI\u00D3N II\\UNIDAD 1\\Ejercicio1-5\\Ejercicio1-5\\Program.cs",
-              "RelativeToolTip": "Ejercicio1-5\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAbAAAA",
+              "DocumentIndex": 2,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5\\Ejercicio1-5\\Dominio\\Articulo.cs",
+              "RelativeDocumentMoniker": "Ejercicio1-5\\Dominio\\Articulo.cs",
+              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5\\Ejercicio1-5\\Dominio\\Articulo.cs",
+              "RelativeToolTip": "Ejercicio1-5\\Dominio\\Articulo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T19:49:12.004Z",
+              "WhenOpened": "2024-09-02T19:26:30.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FacturaService.cs",
-              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Segundo Cuatrimestre\\PROGRAMACI\u00D3N II\\UNIDAD 1\\Ejercicio1-5\\Ejercicio1-5\\Servicios\\FacturaService.cs",
-              "RelativeDocumentMoniker": "Ejercicio1-5\\Servicios\\FacturaService.cs",
-              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Segundo Cuatrimestre\\PROGRAMACI\u00D3N II\\UNIDAD 1\\Ejercicio1-5\\Ejercicio1-5\\Servicios\\FacturaService.cs",
-              "RelativeToolTip": "Ejercicio1-5\\Servicios\\FacturaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Title": "FormaPago.cs",
+              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5\\Ejercicio1-5\\Dominio\\FormaPago.cs",
+              "RelativeDocumentMoniker": "Ejercicio1-5\\Dominio\\FormaPago.cs",
+              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5\\Ejercicio1-5\\Dominio\\FormaPago.cs",
+              "RelativeToolTip": "Ejercicio1-5\\Dominio\\FormaPago.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T19:46:36.011Z",
+              "WhenOpened": "2024-09-02T19:26:27.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FacturaRepositoryADO.cs",
-              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Segundo Cuatrimestre\\PROGRAMACI\u00D3N II\\UNIDAD 1\\Ejercicio1-5\\Ejercicio1-5\\Datos\\FacturaRepositoryADO.cs",
-              "RelativeDocumentMoniker": "Ejercicio1-5\\Datos\\FacturaRepositoryADO.cs",
-              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Segundo Cuatrimestre\\PROGRAMACI\u00D3N II\\UNIDAD 1\\Ejercicio1-5\\Ejercicio1-5\\Datos\\FacturaRepositoryADO.cs",
-              "RelativeToolTip": "Ejercicio1-5\\Datos\\FacturaRepositoryADO.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwC0AAAAiAAAA",
+              "DocumentIndex": 3,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5\\Ejercicio1-5\\Dominio\\Factura.cs",
+              "RelativeDocumentMoniker": "Ejercicio1-5\\Dominio\\Factura.cs",
+              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5\\Ejercicio1-5\\Dominio\\Factura.cs",
+              "RelativeToolTip": "Ejercicio1-5\\Dominio\\Factura.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T19:31:25.403Z",
+              "WhenOpened": "2024-09-02T19:26:25.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccesoADatos.cs",
+              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5\\Ejercicio1-5\\Datos\\AccesoADatos\\AccesoADatos.cs",
+              "RelativeDocumentMoniker": "Ejercicio1-5\\Datos\\AccesoADatos\\AccesoADatos.cs",
+              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5\\Ejercicio1-5\\Datos\\AccesoADatos\\AccesoADatos.cs",
+              "RelativeToolTip": "Ejercicio1-5\\Datos\\AccesoADatos\\AccesoADatos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T19:25:42.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FacturaRepositoryADO.cs",
+              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5\\Ejercicio1-5\\Datos\\FacturaRepositoryADO.cs",
+              "RelativeDocumentMoniker": "Ejercicio1-5\\Datos\\FacturaRepositoryADO.cs",
+              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5\\Ejercicio1-5\\Datos\\FacturaRepositoryADO.cs",
+              "RelativeToolTip": "Ejercicio1-5\\Datos\\FacturaRepositoryADO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T19:25:29.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DetalleFacura.cs",
+              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5\\Ejercicio1-5\\Dominio\\DetalleFacura.cs",
+              "RelativeDocumentMoniker": "Ejercicio1-5\\Dominio\\DetalleFacura.cs",
+              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5\\Ejercicio1-5\\Dominio\\DetalleFacura.cs",
+              "RelativeToolTip": "Ejercicio1-5\\Dominio\\DetalleFacura.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T19:24:59.325Z",
               "EditorCaption": ""
             }
           ]

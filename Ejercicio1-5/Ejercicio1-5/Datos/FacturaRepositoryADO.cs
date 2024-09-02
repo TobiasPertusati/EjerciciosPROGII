@@ -20,9 +20,6 @@ namespace Ejercicio1_5.Datos
         public Factura Get(int nroFactura)
         {
             throw new NotImplementedException();
-
-            AccesoADatos.AccesoADatos.GetInstance().SetearParametros("", "");
-            AccesoADatos.AccesoADatos.GetInstance().EjecutarSPDML("");
         }
 
         public List<Factura> GetAll()

@@ -19,7 +19,10 @@ namespace Ejercicio1_4.Data.DataAccess
             _connection = new SqlConnection("server=.\\SQLEXPRESS; database=EJ_1_6_PROGII; integrated security=true");
             _cmd = new SqlCommand();
         }
-
+        public SqlConnection GetConnection()
+        {
+            return _connection;
+        }
         public static DataHelper GetInstance()
         {
             if (_instance == null)
@@ -43,7 +46,7 @@ namespace Ejercicio1_4.Data.DataAccess
                 _cmd.CommandType = System.Data.CommandType.StoredProcedure;
                 dt.Load(_cmd.ExecuteReader());
                 _cmd.Parameters.Clear();
-                
+
             }
             catch (SqlException)
             {

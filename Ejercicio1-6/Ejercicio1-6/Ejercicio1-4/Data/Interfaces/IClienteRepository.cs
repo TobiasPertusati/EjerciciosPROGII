@@ -12,5 +12,9 @@ namespace Ejercicio1_4.Data.Interfaces
         List<Cliente> GetAll();
         Cliente Get(int id);
 
+        bool NuevoCliente (Cliente cliente);
+        bool ModificarCliente (Cliente cliente);
+        bool EliminarCliente(int idCliente);
+
     }
 }

@@ -2,6 +2,7 @@ USE master
 GO
 CREATE DATABASE EJ_1_6_PROGII
 GO
+
 USE EJ_1_6_PROGII
 GO
 
@@ -16,7 +17,6 @@ CREATE TABLE tipos_cuentas(
 id_tipo_cuenta int identity(1,1),
 tipo_cuenta varchar(50),
 constraint pk_tipos_cuentas primary key (id_tipo_cuenta)
-
 )
 
 CREATE TABLE cuentas(

@@ -16,7 +16,10 @@ namespace Ejercicio1_4.Services
         {
             _repository = new ClienteRepository();
         }
-
+        public bool New(Cliente cliente)
+        {
+            return _repository.NuevoCliente(cliente);
+        }
         public List<Cliente> GetAll()
         {
             return _repository.GetAll();
@@ -24,6 +27,11 @@ namespace Ejercicio1_4.Services
         public Cliente Get(int id)
         {
             return _repository.Get(id);
+        }
+
+        public bool Modificar(Cliente cliente)
+        {
+            return _repository.ModificarCliente(cliente);
         }
     }
 }

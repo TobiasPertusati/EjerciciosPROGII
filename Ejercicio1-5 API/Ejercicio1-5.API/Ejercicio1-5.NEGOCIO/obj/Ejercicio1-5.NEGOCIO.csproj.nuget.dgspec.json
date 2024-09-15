@@ -1,0 +1,208 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.NEGOCIO\\Ejercicio1-5.NEGOCIO.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.DATA\\Ejercicio1-5.DATA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.DATA\\Ejercicio1-5.DATA.csproj",
+        "projectName": "Ejercicio1-5.DATA",
+        "projectPath": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.DATA\\Ejercicio1-5.DATA.csproj",
+        "packagesPath": "C:\\Users\\tobia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.DATA\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tobia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.MODELOS\\Ejercicio1-5.MODELOS.csproj": {
+                "projectPath": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.MODELOS\\Ejercicio1-5.MODELOS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.MODELOS\\Ejercicio1-5.MODELOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.MODELOS\\Ejercicio1-5.MODELOS.csproj",
+        "projectName": "Ejercicio1-5.MODELOS",
+        "projectPath": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.MODELOS\\Ejercicio1-5.MODELOS.csproj",
+        "packagesPath": "C:\\Users\\tobia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.MODELOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tobia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.NEGOCIO\\Ejercicio1-5.NEGOCIO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.NEGOCIO\\Ejercicio1-5.NEGOCIO.csproj",
+        "projectName": "Ejercicio1-5.NEGOCIO",
+        "projectPath": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.NEGOCIO\\Ejercicio1-5.NEGOCIO.csproj",
+        "packagesPath": "C:\\Users\\tobia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.NEGOCIO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tobia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.DATA\\Ejercicio1-5.DATA.csproj": {
+                "projectPath": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.DATA\\Ejercicio1-5.DATA.csproj"
+              },
+              "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.MODELOS\\Ejercicio1-5.MODELOS.csproj": {
+                "projectPath": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.MODELOS\\Ejercicio1-5.MODELOS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

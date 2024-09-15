@@ -1,0 +1,7 @@
+D:\UTN\ProgramacionII\2024\2Cuatrimestre\APIModeloMD1W3\obj\Debug\net8.0\ProduccionWebApi.csproj.AssemblyReference.cache
+D:\UTN\ProgramacionII\2024\2Cuatrimestre\APIModeloMD1W3\obj\Debug\net8.0\ProduccionWebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\UTN\ProgramacionII\2024\2Cuatrimestre\APIModeloMD1W3\obj\Debug\net8.0\ProduccionWebApi.AssemblyInfoInputs.cache
+D:\UTN\ProgramacionII\2024\2Cuatrimestre\APIModeloMD1W3\obj\Debug\net8.0\ProduccionWebApi.AssemblyInfo.cs
+D:\UTN\ProgramacionII\2024\2Cuatrimestre\APIModeloMD1W3\obj\Debug\net8.0\ProduccionWebApi.csproj.CoreCompileInputs.cache
+D:\UTN\ProgramacionII\2024\2Cuatrimestre\APIModeloMD1W3\obj\Debug\net8.0\ProduccionWebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\UTN\ProgramacionII\2024\2Cuatrimestre\APIModeloMD1W3\obj\Debug\net8.0\ProduccionWebApi.MvcApplicationPartsAssemblyInfo.cache

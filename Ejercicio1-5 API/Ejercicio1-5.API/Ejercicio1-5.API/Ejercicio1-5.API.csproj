@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Ejercicio1_5.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.19" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ejercicio1-5.DATA\Ejercicio1-5.DATA.csproj" />
+    <ProjectReference Include="..\Ejercicio1-5.MODELOS\Ejercicio1-5.MODELOS.csproj" />
+    <ProjectReference Include="..\Ejercicio1-5.NEGOCIO\Ejercicio1-5.NEGOCIO.csproj" />
+  </ItemGroup>
+
+</Project>

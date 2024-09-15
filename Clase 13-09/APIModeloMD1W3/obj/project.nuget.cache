@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "svOXxKbV40w=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 13-09\\APIModeloMD1W3\\ProduccionWebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tobia\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\tobia\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\tobia\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\tobia\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\tobia\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\tobia\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "No se encuentra el proyecto \"C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 13-09\\ProduccionBack\\ProduccionBack.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "libraryId": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 13-09\\ProduccionBack\\ProduccionBack.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

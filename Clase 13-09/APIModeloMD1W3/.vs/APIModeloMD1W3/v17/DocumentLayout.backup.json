@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UTN\\ProgramacionII\\2024\\2Cuatrimestre\\APIModeloMD1W3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{040BB2F6-B478-4704-91BD-03F02F4A62AC}|ProduccionWebApi.csproj|d:\\utn\\programacionii\\2024\\2cuatrimestre\\apimodelomd1w3\\produccionwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{040BB2F6-B478-4704-91BD-03F02F4A62AC}|ProduccionWebApi.csproj|solutionrelative:produccionwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040BB2F6-B478-4704-91BD-03F02F4A62AC}|ProduccionWebApi.csproj|d:\\utn\\programacionii\\2024\\2cuatrimestre\\apimodelomd1w3\\controllers\\ordenproduccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040BB2F6-B478-4704-91BD-03F02F4A62AC}|ProduccionWebApi.csproj|solutionrelative:controllers\\ordenproduccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdenProduccionController.cs",
+              "DocumentMoniker": "D:\\UTN\\ProgramacionII\\2024\\2Cuatrimestre\\APIModeloMD1W3\\Controllers\\OrdenProduccionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdenProduccionController.cs",
+              "ToolTip": "D:\\UTN\\ProgramacionII\\2024\\2Cuatrimestre\\APIModeloMD1W3\\Controllers\\OrdenProduccionController.cs*",
+              "RelativeToolTip": "Controllers\\OrdenProduccionController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T22:18:41.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProduccionWebApi.csproj",
+              "DocumentMoniker": "D:\\UTN\\ProgramacionII\\2024\\2Cuatrimestre\\APIModeloMD1W3\\ProduccionWebApi.csproj",
+              "RelativeDocumentMoniker": "ProduccionWebApi.csproj",
+              "ToolTip": "D:\\UTN\\ProgramacionII\\2024\\2Cuatrimestre\\APIModeloMD1W3\\ProduccionWebApi.csproj*",
+              "RelativeToolTip": "ProduccionWebApi.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-13T22:12:48.499Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

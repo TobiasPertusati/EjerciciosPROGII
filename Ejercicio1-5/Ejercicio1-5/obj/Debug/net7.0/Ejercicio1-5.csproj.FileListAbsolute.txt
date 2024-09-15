@@ -20,3 +20,26 @@ C:\Users\tobia\Desktop\TUP\Segundo Cuatrimestre\PROGRAMACIÓN II\UNIDAD 1\Ejerci
 C:\Users\tobia\Desktop\TUP\Segundo Cuatrimestre\PROGRAMACIÓN II\UNIDAD 1\Ejercicio1-5\Ejercicio1-5\obj\Debug\net7.0\Ejercicio1-5.pdb
 C:\Users\tobia\Desktop\TUP\Segundo Cuatrimestre\PROGRAMACIÓN II\UNIDAD 1\Ejercicio1-5\Ejercicio1-5\obj\Debug\net7.0\Ejercicio1-5.genruntimeconfig.cache
 C:\Users\tobia\Desktop\TUP\Segundo Cuatrimestre\PROGRAMACIÓN II\UNIDAD 1\Ejercicio1-5\Ejercicio1-5\obj\Debug\net7.0\ref\Ejercicio1-5.dll
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\obj\Debug\net7.0\Ejercicio1-5.csproj.AssemblyReference.cache
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\obj\Debug\net7.0\Ejercicio1-5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\obj\Debug\net7.0\Ejercicio1-5.AssemblyInfoInputs.cache
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\obj\Debug\net7.0\Ejercicio1-5.AssemblyInfo.cs
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\obj\Debug\net7.0\Ejercicio1-5.csproj.CoreCompileInputs.cache
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\obj\Debug\net7.0\Ejercicio1-5.sourcelink.json
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\obj\Debug\net7.0\Ejercicio1-5.dll
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\obj\Debug\net7.0\refint\Ejercicio1-5.dll
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\obj\Debug\net7.0\Ejercicio1-5.pdb
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\bin\Debug\net7.0\Ejercicio1-5.exe
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\bin\Debug\net7.0\Ejercicio1-5.deps.json
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\bin\Debug\net7.0\Ejercicio1-5.runtimeconfig.json
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\bin\Debug\net7.0\Ejercicio1-5.dll
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\bin\Debug\net7.0\Ejercicio1-5.pdb
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\obj\Debug\net7.0\Ejercici.19BFC140.Up2Date
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\obj\Debug\net7.0\Ejercicio1-5.genruntimeconfig.cache
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio1-5\Ejercicio1-5\obj\Debug\net7.0\ref\Ejercicio1-5.dll

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Ejercicio1_5.NEGOCIO</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ejercicio1-5.DATA\Ejercicio1-5.DATA.csproj" />
+    <ProjectReference Include="..\Ejercicio1-5.MODELOS\Ejercicio1-5.MODELOS.csproj" />
+  </ItemGroup>
+
+</Project>

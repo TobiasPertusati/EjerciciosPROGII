@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ejercicio1_5.Dominio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ namespace Ejercicio1_5.Datos.Interfacez
 {
     public interface IDetalleFacturaRepository
     {
-        void Get(int nroFac, int nroCli);
+        List<DetalleFactura> GetDetalles(int nroFac);
+
     }
 }

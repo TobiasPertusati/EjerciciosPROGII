@@ -31,6 +31,40 @@ namespace Ejercicio1_5.Datos.AccesoADatos
 
         // METODOS PARA TRABAJAR CON ADO
 
+        // TRABAJAR CON TRANSACCIONES
+        public SqlConnection GetConnection()
+        {
+            return _conexion;
+        }
+        public bool EjecutarTransaccion()
+        {
+            bool res = true;
+            SqlTransaction t = null;
+            try
+            {
+                _conexion.Open();
+                t = _conexion.BeginTransaction();
+
+
+
+
+                t.Commit();
+            }
+            catch (SqlException)
+            {
+                res = false;
+                if (t != null)
+                {
+                    t.Rollback();
+                }
+            }
+            finally
+            {
+                CerrarConexion();
+            }
+            return res;
+        }
+
         // SETEAR PARAMETROS
         public void SetearParametros(object obj, string name)
         {
@@ -85,7 +119,10 @@ namespace Ejercicio1_5.Datos.AccesoADatos
         // CERRAR CONEXIÓN 
         public void CerrarConexion()
         {
-            _conexion.Close();
+            if (_conexion != null && _conexion.State == System.Data.ConnectionState.Open)
+            {
+                _conexion.Close();
+            }
         }
         // 
 

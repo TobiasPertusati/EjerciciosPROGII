@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 06-09\\WebAPITest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{172DCE8D-BE81-4E11-848F-38793C1BE66B}|WebAPITest\\WebAPITest.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\clase 06-09\\webapitest\\webapitest\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172DCE8D-BE81-4E11-848F-38793C1BE66B}|WebAPITest\\WebAPITest.csproj|solutionrelative:webapitest\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172DCE8D-BE81-4E11-848F-38793C1BE66B}|WebAPITest\\WebAPITest.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\clase 06-09\\webapitest\\webapitest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172DCE8D-BE81-4E11-848F-38793C1BE66B}|WebAPITest\\WebAPITest.csproj|solutionrelative:webapitest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172DCE8D-BE81-4E11-848F-38793C1BE66B}|WebAPITest\\WebAPITest.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\clase 06-09\\webapitest\\webapitest\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172DCE8D-BE81-4E11-848F-38793C1BE66B}|WebAPITest\\WebAPITest.csproj|solutionrelative:webapitest\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172DCE8D-BE81-4E11-848F-38793C1BE66B}|WebAPITest\\WebAPITest.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\clase 06-09\\webapitest\\webapitest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172DCE8D-BE81-4E11-848F-38793C1BE66B}|WebAPITest\\WebAPITest.csproj|solutionrelative:webapitest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 06-09\\WebAPITest\\WebAPITest\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebAPITest\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 06-09\\WebAPITest\\WebAPITest\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebAPITest\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T23:59:59.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 06-09\\WebAPITest\\WebAPITest\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebAPITest\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 06-09\\WebAPITest\\WebAPITest\\Models\\Product.cs",
+              "RelativeToolTip": "WebAPITest\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T23:58:59.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 06-09\\WebAPITest\\WebAPITest\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebAPITest\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 06-09\\WebAPITest\\WebAPITest\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebAPITest\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T23:23:43.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 06-09\\WebAPITest\\WebAPITest\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPITest\\Program.cs",
+              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 06-09\\WebAPITest\\WebAPITest\\Program.cs",
+              "RelativeToolTip": "WebAPITest\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T23:22:33.85Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@Clase20_09_EF.API_HostAddress = http://localhost:5001
+
+GET {{Clase20_09_EF.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

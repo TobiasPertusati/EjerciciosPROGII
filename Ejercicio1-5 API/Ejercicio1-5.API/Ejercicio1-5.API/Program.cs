@@ -1,3 +1,5 @@
+using Microsoft.Win32;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -48,3 +50,22 @@ app.Run();
 //- Desarrollar el/los procedimientos almacenados que considere necesarios.
 
 //- Adicionalmente deberá probar la WebApi mediante la herramienta Swagger.
+
+
+//----------------------------
+//Servicios Web(WebApi M-D)
+//Tomando como base la actividad Actividad Práctica 03, se pide:
+
+//-Refactorizar la Web API desarrollada agregando los siguientes componentes:
+
+//  	  ++Un controlador llamado FacturaController (carpeta Controllers).
+
+//        ++ Refactorizar la implementación de una interfaz IAplicacion que exponga los servicios para: registrar, consultar (con filtros) y editar facturas.
+
+//        ++ Refactorizar la capa de acceso a datos para incluir la gestión de facturas. Se deberá prever la consulta de facturas por fecha y forma de pago.
+
+//- Utilizar la misma base de datos de la actividad 01
+
+//- Desarrollar el/los procedimientos almacenados que considere necesarios.
+
+//- Adicionalmente deberá probar la WebApi mediante la herramienta POSTMAN.

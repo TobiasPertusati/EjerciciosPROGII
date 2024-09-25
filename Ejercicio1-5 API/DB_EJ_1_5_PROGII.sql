@@ -242,3 +242,39 @@ BEGIN
 	FROM articulos A
 	WHERE id_articulo = @ID_ARTICULO
 END
+
+
+
+CREATE PROCEDURE SP_GET_FACTURAS_FILTRO
+(
+@FECHA_INICIO DATE = null,
+@FECHA_FIN DATE = null,
+@ID_FP INT
+)
+AS
+		-- SOLO FP
+	IF @ID_FP != 0 AND @FECHA_FIN IS NULL AND @FECHA_FIN IS NULL
+		BEGIN
+			SELECT nro_factura,fecha, FP.id_forma_pago, FP.nombre, cliente
+			FROM Facturas F
+			JOIN Formas_Pagos FP ON F.formaPago = FP.id_forma_pago
+			WHERE f.formaPago = @ID_FP
+		END
+		-- SOLO FECHAS
+	ELSE IF @ID_FP = 0 AND @FECHA_FIN IS NOT NULL AND @FECHA_FIN IS NOT NULL
+		BEGIN
+			SELECT nro_factura,fecha, FP.id_forma_pago, FP.nombre, cliente
+			FROM Facturas F
+			JOIN Formas_Pagos FP ON F.formaPago = FP.id_forma_pago
+			WHERE fecha BETWEEN @FECHA_INICIO AND @FECHA_FIN
+		END
+	ELSE
+		-- AMBOS
+		BEGIN
+			SELECT nro_factura,fecha, FP.id_forma_pago, FP.nombre, cliente
+			FROM Facturas F
+			JOIN Formas_Pagos FP ON F.formaPago = FP.id_forma_pago
+			WHERE fecha BETWEEN @FECHA_INICIO AND @FECHA_FIN
+			AND f.formaPago = @ID_FP
+		END
+

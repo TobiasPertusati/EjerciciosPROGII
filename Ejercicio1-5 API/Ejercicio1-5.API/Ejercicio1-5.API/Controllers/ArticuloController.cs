@@ -9,7 +9,7 @@ namespace Ejercicio1_5.API.Controllers
     [ApiController]
     public class ArticuloController : ControllerBase
     {
-        private readonly IAplicacion _aplicacion;
+        private readonly IServicioAplicacion _aplicacion;
         public ArticuloController()
         {
             _aplicacion = new ArticuloServicio();

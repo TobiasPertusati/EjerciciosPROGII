@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio1_5.NEGOCIO.Servicios
 {
-    public class ArticuloServicio : IAplicacion
+    public class ArticuloServicio : IServicioAplicacion
     {
         private IArticuloRepository _repository;
         public ArticuloServicio()

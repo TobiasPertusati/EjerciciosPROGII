@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Clase20-09-EF.API.props" />
+</Project>

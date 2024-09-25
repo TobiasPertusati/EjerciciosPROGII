@@ -1,12 +1,38 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D160028-137E-4F12-B631-2438CDA87935}|Ejercicio1-5.API\\Ejercicio1-5.API.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\ejercicio1-5 api\\ejercicio1-5.api\\ejercicio1-5.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D160028-137E-4F12-B631-2438CDA87935}|Ejercicio1-5.API\\Ejercicio1-5.API.csproj|solutionrelative:ejercicio1-5.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.API\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio1-5.API\\Program.cs",
+              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio1-5 API\\Ejercicio1-5.API\\Ejercicio1-5.API\\Program.cs",
+              "RelativeToolTip": "Ejercicio1-5.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T18:16:35.177Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

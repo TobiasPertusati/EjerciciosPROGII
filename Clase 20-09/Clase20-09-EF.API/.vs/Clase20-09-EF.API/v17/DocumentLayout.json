@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 20-09\\Clase20-09-EF.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{234E41C9-E289-4975-B8CE-9F4A3A64C15B}|Clase20-09-EF.DLL\\Clase20-09-EF.DLL.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\clase 20-09\\clase20-09-ef.api\\clase20-09-ef.dll\\data\\repositories\\librorepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234E41C9-E289-4975-B8CE-9F4A3A64C15B}|Clase20-09-EF.DLL\\Clase20-09-EF.DLL.csproj|solutionrelative:clase20-09-ef.dll\\data\\repositories\\librorepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{234E41C9-E289-4975-B8CE-9F4A3A64C15B}|Clase20-09-EF.DLL\\Clase20-09-EF.DLL.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\clase 20-09\\clase20-09-ef.api\\clase20-09-ef.dll\\data\\repositories\\interfaces\\ilibrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234E41C9-E289-4975-B8CE-9F4A3A64C15B}|Clase20-09-EF.DLL\\Clase20-09-EF.DLL.csproj|solutionrelative:clase20-09-ef.dll\\data\\repositories\\interfaces\\ilibrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0302025C-C21E-4DC8-99A8-9210C5288671}|Clase20-09-EF.API\\Clase20-09-EF.API.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\clase 20-09\\clase20-09-ef.api\\clase20-09-ef.api\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0302025C-C21E-4DC8-99A8-9210C5288671}|Clase20-09-EF.API\\Clase20-09-EF.API.csproj|solutionrelative:clase20-09-ef.api\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0302025C-C21E-4DC8-99A8-9210C5288671}|Clase20-09-EF.API\\Clase20-09-EF.API.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\clase 20-09\\clase20-09-ef.api\\clase20-09-ef.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0302025C-C21E-4DC8-99A8-9210C5288671}|Clase20-09-EF.API\\Clase20-09-EF.API.csproj|solutionrelative:clase20-09-ef.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0302025C-C21E-4DC8-99A8-9210C5288671}|Clase20-09-EF.API\\Clase20-09-EF.API.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\clase 20-09\\clase20-09-ef.api\\clase20-09-ef.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0302025C-C21E-4DC8-99A8-9210C5288671}|Clase20-09-EF.API\\Clase20-09-EF.API.csproj|solutionrelative:clase20-09-ef.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 20-09\\Clase20-09-EF.API\\Clase20-09-EF.API\\Program.cs",
+              "RelativeDocumentMoniker": "Clase20-09-EF.API\\Program.cs",
+              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 20-09\\Clase20-09-EF.API\\Clase20-09-EF.API\\Program.cs",
+              "RelativeToolTip": "Clase20-09-EF.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T23:42:32.811Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 20-09\\Clase20-09-EF.API\\Clase20-09-EF.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Clase20-09-EF.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 20-09\\Clase20-09-EF.API\\Clase20-09-EF.API\\appsettings.json",
+              "RelativeToolTip": "Clase20-09-EF.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-20T23:56:31.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibroController.cs",
+              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 20-09\\Clase20-09-EF.API\\Clase20-09-EF.API\\Controllers\\LibroController.cs",
+              "RelativeDocumentMoniker": "Clase20-09-EF.API\\Controllers\\LibroController.cs",
+              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 20-09\\Clase20-09-EF.API\\Clase20-09-EF.API\\Controllers\\LibroController.cs",
+              "RelativeToolTip": "Clase20-09-EF.API\\Controllers\\LibroController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowD4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T23:26:28.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibroRepositoryEF.cs",
+              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 20-09\\Clase20-09-EF.API\\Clase20-09-EF.DLL\\Data\\Repositories\\LibroRepositoryEF.cs",
+              "RelativeDocumentMoniker": "Clase20-09-EF.DLL\\Data\\Repositories\\LibroRepositoryEF.cs",
+              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 20-09\\Clase20-09-EF.API\\Clase20-09-EF.DLL\\Data\\Repositories\\LibroRepositoryEF.cs",
+              "RelativeToolTip": "Clase20-09-EF.DLL\\Data\\Repositories\\LibroRepositoryEF.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAiwBoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T22:53:05.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ILibroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 20-09\\Clase20-09-EF.API\\Clase20-09-EF.DLL\\Data\\Repositories\\Interfaces\\ILibroRepository.cs",
+              "RelativeDocumentMoniker": "Clase20-09-EF.DLL\\Data\\Repositories\\Interfaces\\ILibroRepository.cs",
+              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Clase 20-09\\Clase20-09-EF.API\\Clase20-09-EF.DLL\\Data\\Repositories\\Interfaces\\ILibroRepository.cs",
+              "RelativeToolTip": "Clase20-09-EF.DLL\\Data\\Repositories\\Interfaces\\ILibroRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowA8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T22:51:23.609Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

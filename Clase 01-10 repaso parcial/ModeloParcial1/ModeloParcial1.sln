@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModeloParcial1.DLL", "ModeloParcial1.DLL\ModeloParcial1.DLL.csproj", "{AA0D99E6-68E9-430A-A023-B82596BB52E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModeloParcial1.API", "ModeloParcial1.API\ModeloParcial1.API.csproj", "{3875F988-3938-47B7-AA24-F534142B35B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA0D99E6-68E9-430A-A023-B82596BB52E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA0D99E6-68E9-430A-A023-B82596BB52E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA0D99E6-68E9-430A-A023-B82596BB52E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA0D99E6-68E9-430A-A023-B82596BB52E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3875F988-3938-47B7-AA24-F534142B35B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3875F988-3938-47B7-AA24-F534142B35B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3875F988-3938-47B7-AA24-F534142B35B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3875F988-3938-47B7-AA24-F534142B35B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6CCB622-DE0A-4AF9-A6E1-AC375B425DCB}
+	EndGlobalSection
+EndGlobal

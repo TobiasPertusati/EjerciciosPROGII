@@ -1,0 +1,15 @@
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio2-7\Ejercicio2-7\Ejercicio2-7.DLL\bin\Debug\net8.0\Ejercicio2-7.DLL.deps.json
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio2-7\Ejercicio2-7\Ejercicio2-7.DLL\bin\Debug\net8.0\Ejercicio2-7.DLL.runtimeconfig.json
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio2-7\Ejercicio2-7\Ejercicio2-7.DLL\bin\Debug\net8.0\Ejercicio2-7.DLL.dll
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio2-7\Ejercicio2-7\Ejercicio2-7.DLL\bin\Debug\net8.0\Ejercicio2-7.DLL.pdb
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio2-7\Ejercicio2-7\Ejercicio2-7.DLL\obj\Debug\net8.0\Ejercicio2-7.DLL.csproj.AssemblyReference.cache
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio2-7\Ejercicio2-7\Ejercicio2-7.DLL\obj\Debug\net8.0\Ejercicio2-7.DLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio2-7\Ejercicio2-7\Ejercicio2-7.DLL\obj\Debug\net8.0\Ejercicio2-7.DLL.AssemblyInfoInputs.cache
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio2-7\Ejercicio2-7\Ejercicio2-7.DLL\obj\Debug\net8.0\Ejercicio2-7.DLL.AssemblyInfo.cs
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio2-7\Ejercicio2-7\Ejercicio2-7.DLL\obj\Debug\net8.0\Ejercicio2-7.DLL.csproj.CoreCompileInputs.cache
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio2-7\Ejercicio2-7\Ejercicio2-7.DLL\obj\Debug\net8.0\Ejercicio2-7.DLL.sourcelink.json
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio2-7\Ejercicio2-7\Ejercicio2-7.DLL\obj\Debug\net8.0\Ejercicio2-7.DLL.dll
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio2-7\Ejercicio2-7\Ejercicio2-7.DLL\obj\Debug\net8.0\refint\Ejercicio2-7.DLL.dll
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio2-7\Ejercicio2-7\Ejercicio2-7.DLL\obj\Debug\net8.0\Ejercicio2-7.DLL.pdb
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio2-7\Ejercicio2-7\Ejercicio2-7.DLL\obj\Debug\net8.0\Ejercicio2-7.DLL.genruntimeconfig.cache
+C:\Users\tobia\Desktop\TUP\Repos\PROGRAMACION II\Ejercicio2-7\Ejercicio2-7\Ejercicio2-7.DLL\obj\Debug\net8.0\ref\Ejercicio2-7.DLL.dll

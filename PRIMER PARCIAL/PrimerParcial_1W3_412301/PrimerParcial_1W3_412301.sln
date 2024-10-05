@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimerParcial_1W3_412301.DLL", "PrimerParcial_1W3_412301.DLL\PrimerParcial_1W3_412301.DLL.csproj", "{AB69B9B4-08E6-4F64-A5A5-71DB54605732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimerParcial_1W3_412301.API", "PrimerParcial_1W3_412301.API\PrimerParcial_1W3_412301.API.csproj", "{F11D882D-2318-4347-A541-6D8E91BAF67B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB69B9B4-08E6-4F64-A5A5-71DB54605732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB69B9B4-08E6-4F64-A5A5-71DB54605732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB69B9B4-08E6-4F64-A5A5-71DB54605732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB69B9B4-08E6-4F64-A5A5-71DB54605732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F11D882D-2318-4347-A541-6D8E91BAF67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11D882D-2318-4347-A541-6D8E91BAF67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11D882D-2318-4347-A541-6D8E91BAF67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11D882D-2318-4347-A541-6D8E91BAF67B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78A1D13D-9EBD-4D5B-9E4B-645C8B50806F}
+	EndGlobalSection
+EndGlobal

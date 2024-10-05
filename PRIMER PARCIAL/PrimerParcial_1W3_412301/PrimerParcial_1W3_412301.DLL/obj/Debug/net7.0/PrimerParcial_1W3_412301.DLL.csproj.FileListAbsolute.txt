@@ -1,0 +1,12 @@
+C:\Users\Pertu\Desktop\PRIMER PARCIAL\PrimerParcial_1W3_412301\PrimerParcial_1W3_412301.DLL\bin\Debug\net7.0\PrimerParcial_1W3_412301.DLL.deps.json
+C:\Users\Pertu\Desktop\PRIMER PARCIAL\PrimerParcial_1W3_412301\PrimerParcial_1W3_412301.DLL\bin\Debug\net7.0\PrimerParcial_1W3_412301.DLL.dll
+C:\Users\Pertu\Desktop\PRIMER PARCIAL\PrimerParcial_1W3_412301\PrimerParcial_1W3_412301.DLL\bin\Debug\net7.0\PrimerParcial_1W3_412301.DLL.pdb
+C:\Users\Pertu\Desktop\PRIMER PARCIAL\PrimerParcial_1W3_412301\PrimerParcial_1W3_412301.DLL\obj\Debug\net7.0\PrimerParcial_1W3_412301.DLL.csproj.AssemblyReference.cache
+C:\Users\Pertu\Desktop\PRIMER PARCIAL\PrimerParcial_1W3_412301\PrimerParcial_1W3_412301.DLL\obj\Debug\net7.0\PrimerParcial_1W3_412301.DLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pertu\Desktop\PRIMER PARCIAL\PrimerParcial_1W3_412301\PrimerParcial_1W3_412301.DLL\obj\Debug\net7.0\PrimerParcial_1W3_412301.DLL.AssemblyInfoInputs.cache
+C:\Users\Pertu\Desktop\PRIMER PARCIAL\PrimerParcial_1W3_412301\PrimerParcial_1W3_412301.DLL\obj\Debug\net7.0\PrimerParcial_1W3_412301.DLL.AssemblyInfo.cs
+C:\Users\Pertu\Desktop\PRIMER PARCIAL\PrimerParcial_1W3_412301\PrimerParcial_1W3_412301.DLL\obj\Debug\net7.0\PrimerParcial_1W3_412301.DLL.csproj.CoreCompileInputs.cache
+C:\Users\Pertu\Desktop\PRIMER PARCIAL\PrimerParcial_1W3_412301\PrimerParcial_1W3_412301.DLL\obj\Debug\net7.0\PrimerParcial_1W3_412301.DLL.dll
+C:\Users\Pertu\Desktop\PRIMER PARCIAL\PrimerParcial_1W3_412301\PrimerParcial_1W3_412301.DLL\obj\Debug\net7.0\refint\PrimerParcial_1W3_412301.DLL.dll
+C:\Users\Pertu\Desktop\PRIMER PARCIAL\PrimerParcial_1W3_412301\PrimerParcial_1W3_412301.DLL\obj\Debug\net7.0\PrimerParcial_1W3_412301.DLL.pdb
+C:\Users\Pertu\Desktop\PRIMER PARCIAL\PrimerParcial_1W3_412301\PrimerParcial_1W3_412301.DLL\obj\Debug\net7.0\ref\PrimerParcial_1W3_412301.DLL.dll

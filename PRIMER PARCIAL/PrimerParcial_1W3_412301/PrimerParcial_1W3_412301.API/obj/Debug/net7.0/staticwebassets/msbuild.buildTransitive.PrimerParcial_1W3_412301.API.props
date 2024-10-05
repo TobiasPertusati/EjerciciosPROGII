@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\PrimerParcial_1W3_412301.API.props" />
+</Project>

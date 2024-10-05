@@ -1,0 +1,12 @@
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 17-09\Ejercicio2-7.API\Ejercicio2-7.DATA\bin\Debug\net7.0\Ejercicio2-7.DATA.deps.json
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 17-09\Ejercicio2-7.API\Ejercicio2-7.DATA\bin\Debug\net7.0\Ejercicio2-7.DATA.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 17-09\Ejercicio2-7.API\Ejercicio2-7.DATA\bin\Debug\net7.0\Ejercicio2-7.DATA.pdb
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 17-09\Ejercicio2-7.API\Ejercicio2-7.DATA\obj\Debug\net7.0\Ejercicio2-7.DATA.csproj.AssemblyReference.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 17-09\Ejercicio2-7.API\Ejercicio2-7.DATA\obj\Debug\net7.0\Ejercicio2-7.DATA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 17-09\Ejercicio2-7.API\Ejercicio2-7.DATA\obj\Debug\net7.0\Ejercicio2-7.DATA.AssemblyInfoInputs.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 17-09\Ejercicio2-7.API\Ejercicio2-7.DATA\obj\Debug\net7.0\Ejercicio2-7.DATA.AssemblyInfo.cs
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 17-09\Ejercicio2-7.API\Ejercicio2-7.DATA\obj\Debug\net7.0\Ejercicio2-7.DATA.csproj.CoreCompileInputs.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 17-09\Ejercicio2-7.API\Ejercicio2-7.DATA\obj\Debug\net7.0\Ejercicio2-7.DATA.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 17-09\Ejercicio2-7.API\Ejercicio2-7.DATA\obj\Debug\net7.0\refint\Ejercicio2-7.DATA.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 17-09\Ejercicio2-7.API\Ejercicio2-7.DATA\obj\Debug\net7.0\Ejercicio2-7.DATA.pdb
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 17-09\Ejercicio2-7.API\Ejercicio2-7.DATA\obj\Debug\net7.0\ref\Ejercicio2-7.DATA.dll

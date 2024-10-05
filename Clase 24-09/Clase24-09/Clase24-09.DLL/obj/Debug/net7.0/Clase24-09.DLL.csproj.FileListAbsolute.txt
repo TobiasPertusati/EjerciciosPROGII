@@ -1,0 +1,14 @@
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 24-09\Clase24-09\Clase24-09.DLL\bin\Debug\net7.0\Clase24-09.DLL.deps.json
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 24-09\Clase24-09\Clase24-09.DLL\bin\Debug\net7.0\Clase24-09.DLL.runtimeconfig.json
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 24-09\Clase24-09\Clase24-09.DLL\bin\Debug\net7.0\Clase24-09.DLL.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 24-09\Clase24-09\Clase24-09.DLL\bin\Debug\net7.0\Clase24-09.DLL.pdb
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 24-09\Clase24-09\Clase24-09.DLL\obj\Debug\net7.0\Clase24-09.DLL.csproj.AssemblyReference.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 24-09\Clase24-09\Clase24-09.DLL\obj\Debug\net7.0\Clase24-09.DLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 24-09\Clase24-09\Clase24-09.DLL\obj\Debug\net7.0\Clase24-09.DLL.AssemblyInfoInputs.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 24-09\Clase24-09\Clase24-09.DLL\obj\Debug\net7.0\Clase24-09.DLL.AssemblyInfo.cs
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 24-09\Clase24-09\Clase24-09.DLL\obj\Debug\net7.0\Clase24-09.DLL.csproj.CoreCompileInputs.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 24-09\Clase24-09\Clase24-09.DLL\obj\Debug\net7.0\Clase24-09.DLL.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 24-09\Clase24-09\Clase24-09.DLL\obj\Debug\net7.0\refint\Clase24-09.DLL.dll
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 24-09\Clase24-09\Clase24-09.DLL\obj\Debug\net7.0\Clase24-09.DLL.pdb
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 24-09\Clase24-09\Clase24-09.DLL\obj\Debug\net7.0\Clase24-09.DLL.genruntimeconfig.cache
+C:\Users\Pertu\Desktop\RepoEjerciosClases\Clase 24-09\Clase24-09\Clase24-09.DLL\obj\Debug\net7.0\ref\Clase24-09.DLL.dll

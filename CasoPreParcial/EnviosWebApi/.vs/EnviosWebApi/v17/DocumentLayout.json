@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Martin\\source\\repos\\EnviosWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41D91ECA-489A-4299-AB87-F208CAFC1F34}|EnviosWebApi.csproj|c:\\users\\martin\\source\\repos\\envioswebapi\\models\\envioscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D91ECA-489A-4299-AB87-F208CAFC1F34}|EnviosWebApi.csproj|solutionrelative:models\\envioscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnviosContext.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\source\\repos\\EnviosWebApi\\Models\\EnviosContext.cs",
+              "RelativeDocumentMoniker": "Models\\EnviosContext.cs",
+              "ToolTip": "C:\\Users\\Martin\\source\\repos\\EnviosWebApi\\Models\\EnviosContext.cs",
+              "RelativeToolTip": "Models\\EnviosContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T17:36:18.64Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

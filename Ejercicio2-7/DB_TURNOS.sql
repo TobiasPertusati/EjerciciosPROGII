@@ -83,50 +83,71 @@ ON [PRIMARY]
 GO
 SET ANSI_PADDING OFF
 GO
-/****** Object: StoredProcedure [dbo].[SP_INSERTAR_DETALLES]
-Script Date: 02/05/2024 14:05:30 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE PROCEDURE [dbo].[SP_INSERTAR_DETALLES]
-@id_turno int,
-@id_servicio int,
-@observaciones varchar(200)
-AS
-BEGIN
-INSERT INTO T_DETALLES_TURNO(id_turno,id_servicio, observaciones)
- VALUES (@id_turno,@id_servicio, @observaciones);
 
-END
-GO
-/****** Object: StoredProcedure [dbo].[SP_CONTAR_TURNOS] Script
-Date: 02/05/2024 14:05:30 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE PROCEDURE [dbo].[SP_CONTAR_TURNOS]
- @fecha VARCHAR(10),
- @hora VARCHAR(8),
- @ctd_turnos INT OUTPUT
-AS
-BEGIN
- SET NOCOUNT ON;
- SELECT @ctd_turnos = COUNT(*)
- FROM T_TURNOS
- WHERE fecha = @fecha AND hora = @hora;
-END;
-GO
-/****** Object: StoredProcedure [dbo].[SP_CONSULTAR_SERVICIOS]
-Script Date: 02/05/2024 14:05:30 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE PROCEDURE [dbo].[SP_CONSULTAR_SERVICIOS]
-AS
-BEGIN
-SELECT * from T_SERVICIOS ORDER BY 2;
-END
-GO
+ALTER TABLE [T_DETALLES_TURNO]
+ADD CONSTRAINT FK_T_DETALLES_TURNOS_SERVICIOS FOREIGN KEY (id_servicio)
+	REFERENCES T_SERVICIOS (id)
+
+ALTER TABLE [T_DETALLES_TURNO]
+ADD CONSTRAINT FK_T_DETALLES_TURNOS_TURNO FOREIGN KEY ([id_turno])
+	REFERENCES T_TURNOS (id)
+
+ALTER TABLE [T_SERVICVIO]
+ADD estado bit
+
+ALTER TABLE [T_TURNOS]
+add fecha_cancelacion date
+
+ALTER TABLE [T_TURNOS]
+add motivo_cancelacion varchar(100)
+
+
+
+
+--/****** Object: StoredProcedure [dbo].[SP_INSERTAR_DETALLES]
+--Script Date: 02/05/2024 14:05:30 ******/
+--SET ANSI_NULLS ON
+--GO
+--SET QUOTED_IDENTIFIER ON
+--GO
+--CREATE PROCEDURE [dbo].[SP_INSERTAR_DETALLES]
+--@id_turno int,
+--@id_servicio int,
+--@observaciones varchar(200)
+--AS
+--BEGIN
+--INSERT INTO T_DETALLES_TURNO(id_turno,id_servicio, observaciones)
+-- VALUES (@id_turno,@id_servicio, @observaciones);
+
+--END
+--GO
+--/****** Object: StoredProcedure [dbo].[SP_CONTAR_TURNOS] Script
+--Date: 02/05/2024 14:05:30 ******/
+--SET ANSI_NULLS ON
+--GO
+--SET QUOTED_IDENTIFIER ON
+--GO
+--CREATE PROCEDURE [dbo].[SP_CONTAR_TURNOS]
+-- @fecha VARCHAR(10),
+-- @hora VARCHAR(8),
+-- @ctd_turnos INT OUTPUT
+--AS
+--BEGIN
+-- SET NOCOUNT ON;
+-- SELECT @ctd_turnos = COUNT(*)
+-- FROM T_TURNOS
+-- WHERE fecha = @fecha AND hora = @hora;
+--END;
+--GO
+--/****** Object: StoredProcedure [dbo].[SP_CONSULTAR_SERVICIOS]
+--Script Date: 02/05/2024 14:05:30 ******/
+--SET ANSI_NULLS ON
+--GO
+--SET QUOTED_IDENTIFIER ON
+--GO
+--CREATE PROCEDURE [dbo].[SP_CONSULTAR_SERVICIOS]
+--AS
+--BEGIN
+--SELECT * from T_SERVICIOS ORDER BY 2;
+--END
+--GO

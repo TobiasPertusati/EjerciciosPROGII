@@ -9,6 +9,11 @@ namespace Ejercicio2_7.DLL.Repository
 {
     public interface IServicioRepository
     {
-        Task<List<Servicio>> GetAllASYNC();
+        Task<List<Servicio>> GetAllASYNC(string promo);
+        Task<Servicio> GetASYNC(int id);
+
+        Task<bool> SaveASYNC(Servicio servicio);
+
+        Task<bool> LogicDeleteASYNC(int id);
     }
 }

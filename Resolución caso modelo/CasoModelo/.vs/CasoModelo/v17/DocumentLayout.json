@@ -34,8 +34,7 @@
               "RelativeToolTip": "CasoModelo.DLL\\Data\\Repository\\OrdenRepository.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAowDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T19:11:42.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T19:11:42.545Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "CasoModelo.API\\Controllers\\OrdenProducionController.cs",
               "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Resoluci\u00F3n caso modelo\\CasoModelo\\CasoModelo.API\\Controllers\\OrdenProducionController.cs",
               "RelativeToolTip": "CasoModelo.API\\Controllers\\OrdenProducionController.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAAAEoAAAAQAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowEoAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T18:48:41.606Z",
               "EditorCaption": ""
@@ -60,8 +59,7 @@
               "RelativeToolTip": "CasoModelo.API\\Program.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAAD0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T16:47:45.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T16:47:45.531Z"
             }
           ]
         }

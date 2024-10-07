@@ -33,6 +33,16 @@ public partial class DB_TURNOSContext : DbContext
                 .HasMaxLength(200)
                 .IsUnicode(false)
                 .HasColumnName("observaciones");
+
+            entity.HasOne(d => d.IdServicioNavigation).WithMany(p => p.TDetallesTurnos)
+                .HasForeignKey(d => d.IdServicio)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_T_DETALLES_TURNOS_SERVICIOS");
+
+            entity.HasOne(d => d.IdTurnoNavigation).WithMany(p => p.TDetallesTurnos)
+                .HasForeignKey(d => d.IdTurno)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_T_DETALLES_TURNOS_TURNO");
         });
 
         modelBuilder.Entity<Servicio>(entity =>

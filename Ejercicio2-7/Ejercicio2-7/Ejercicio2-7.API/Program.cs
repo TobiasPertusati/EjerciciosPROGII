@@ -19,8 +19,10 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectio
 
 builder.Services.AddScoped<IServicioService, ServicioService>();
 builder.Services.AddScoped<IServicioRepository,ServicioRepository>();
+
 builder.Services.AddScoped<ITurnoService, TurnoService>();
 builder.Services.AddScoped<ITurnoRepository, TurnoRepository>();
+
 
 var app = builder.Build();
 
@@ -45,51 +47,43 @@ app.Run();
 
 //  	 ++Un controlador llamado ServiciosController (carpeta Controllers).
 
-//        ++ Crear un segundo proyecto de tipo librería (DLL) que exponga los servicios para: registrar, consultar (con filtros), editar y registrar la baja lógica de servicios.
+//        ++ Crear un segundo proyecto de tipo librería (DLL) que exponga los servicios para:
+//        --registrar, consultar (con filtros), editar y registrar la baja lógica de servicios.
 
-//        ++ Crear una capa de acceso a datos para incluir la gestión de servicios dentro del proyecto dll. Para ello deberá configurar debidamente las dependencias con los paquetes necesarios para trabajar con Entity Framework Core (EF).
+//        ++ Modificar el proyecto de tipo librería (DLL) para que exponga las funcionalidades de: registrar,
+//        --consultar (con filtros), editar y registrar la baja de turnos (cancelación).
 
-//        ++ Desarrollar una implementación de un patrón Repository para Servicios utilizando el ORM EF. En este punto puede implementar una migración a partir de la clase de modelo o bien realizar una ingeniería inversa desde la base de datos.
 
-//- Adicionalmente deberá probar la WebApi mediante la herramienta POSTMAN.
+//        ++ Crear una capa de acceso a datos para incluir la gestión de servicios dentro del proyecto dll.
+//        --Para ello deberá configurar debidamente las dependencias con los paquetes necesarios para trabajar con Entity Framework Core (EF).
 
-//Definir una capa de datos que permita consultar servicios y registrar los datos 
-//completos de un turno con el detalle de servicios. Implementar el patrón 
-//repository tanto para turnos como para servicios. 
-
-//? Cada repositorio deberá llamar a los procedimientos almacenados provistos 
-//en el script. 
 
 //? Adicionalmente considerar las siguientes reglas de negocio: 
-//? La fecha de reserva deberá tener como valor por defecto la fecha actual 
 
-//+ 1 (fecha día siguiente como mínimo). Deberá controlar que la fecha 
-//de reserva no supere los 45 días a la fecha actual. 
+    //? La fecha del turno deberá tener como valor por defecto la fecha actual + 1 (fecha día siguiente como mínimo).
+    //Deberá controlar que la fecha de reserva no supere los 45 días a la fecha actual. 
 
-//? Deberá controlar que no se pueden grabar dos veces el mismo servicio 
-//como detalle. Es decir, no puede solicitar “corte de cabello” 2 veces en 
-//el mismo turno. 
+    //? Deberá controlar que no se pueden grabar dos veces el mismo servicio 
+    //como detalle. Es decir, no puede solicitar “corte de cabello” 2 veces en 
+    //el mismo turno. 
 
-//? Deberá controlar además que solo es posible registrar el turno si para 
-//la fecha y hora seleccionadas no existe un registro previamente 
-//cargado. 
+    //? Deberá controlar además que solo es posible registrar el turno si para 
+    //la fecha y hora seleccionadas no existe un registro previamente 
+    //cargado. 
 
-//? Controlar que se hayan ingresado datos de al menos un servicio. 
-//? Al registrar un turno se deberá retornar objeto mensaje de confirmación.  
-//? Crear una colección POSTMAN que permita probar las funcionalidades para 
-//consultar servicios y registrar los datos completos de un turno 
+    //? Controlar que se hayan ingresado datos de al menos un servicio. 
 
-//Tomando como base el Problema 2.7 refactorizar la solución para que la Web 
-//API exponga servicios para: 
+    //? Al registrar un turno se deberá retornar objeto mensaje de confirmación.  
 
-// Actualizar los datos de una reserva siempre que la fecha/hora sean 
-//anteriores a los confirmados en su creación 
+    // Actualizar los datos de una turno siempre que la fecha/hora sean 
+    //anteriores a los confirmados en su creación 
 
-// Cancelar una reserva indicando un motivo de cancelación. Al igual que 
-//el apartado anterior, validar la restricción temporal.
-//
-// Actualizar el modelo de datos con los campos: fecha_cancelación y 
-//motivo_cancelación en la tabla reservas. 
+    // Cancelar una turno indicando un motivo de cancelación. Al igual que 
+    //el apartado anterior, validar la restricción temporal.
 
-// Actualizar la colección POSTMAN para probar los escenarios de 
-//actualización y cancelación de reservas. 
+    // Actualizar el modelo de datos con los campos: fecha_cancelación y 
+    //motivo_cancelación en la tabla turnos. 
+
+
+
+

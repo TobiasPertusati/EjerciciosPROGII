@@ -17,7 +17,8 @@ namespace Ejercicio2_7.API.Controllers
             _service = service;
         }
 
-
+        //        ++ Modificar el proyecto de tipo librería (DLL) para que exponga las funcionalidades de: registrar,
+        //        --consultar (con filtros), editar y registrar la baja de turnos (cancelación).
 
         [HttpGet("Todos_los_turnos")]
         public async Task<IActionResult> GetAllTurnosAsync()
@@ -56,13 +57,21 @@ namespace Ejercicio2_7.API.Controllers
             }
         }
 
-        // POST api/<TurnoController>
         [HttpPost("Nuevo_Turno")]
         public async Task<IActionResult> Post([FromBody] Turno turno)
         {
             try
             {
-                // VALIDACIONES
+                //? La fecha del turno deberá tener como valor por defecto la fecha actual + 1 (fecha día siguiente como mínimo).
+                //Deberá controlar que la fecha de reserva no supere los 45 días a la fecha actual. 
+
+                //? Deberá controlar que no se pueden grabar dos veces el mismo servicio como detalle.
+                //Es decir, no puede solicitar “corte de cabello” 2 veces en el mismo turno. 
+
+                //? Controlar que se hayan ingresado datos de al menos un servicio. 
+
+                //? Al registrar un turno se deberá retornar objeto mensaje de confirmación. 
+
 
                 return Ok(await _service.SaveAsync(turno));
             }
@@ -78,6 +87,8 @@ namespace Ejercicio2_7.API.Controllers
         {
             try
             {
+                // Actualizar los datos de una turno siempre que la fecha/hora sean anteriores a los confirmados en su creación 
+
                 return Ok(await _service.SaveAsync(turno));
             }
             catch (Exception)
@@ -91,6 +102,12 @@ namespace Ejercicio2_7.API.Controllers
         {
             try
             {
+
+                // Cancelar una turno indicando un motivo de cancelación. Al igual que 
+                //el apartado anterior, validar la restricción temporal.
+
+                // Actualizar el modelo de datos con los campos: fecha_cancelación y 
+                //motivo_cancelación en la tabla turnos. 
                 return Ok(await _service.DeleteByIdAsync(id));
             }
             catch (Exception)

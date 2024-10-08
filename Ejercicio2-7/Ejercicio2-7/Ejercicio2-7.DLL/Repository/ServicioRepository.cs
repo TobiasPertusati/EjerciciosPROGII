@@ -37,13 +37,17 @@ namespace Ejercicio2_7.DLL.Repository
         }
         public async Task<bool> SaveASYNC(Servicio servicio)
         {
-            if (servicio.Id == 0)
+            Servicio s = await GetASYNC(servicio.Id);
+            if (s == null)
             {
                 await _context.TServicios.AddAsync(servicio);
             }
             else
             {
-                _context.TServicios.Update(servicio);
+                s.Costo = servicio.Costo;
+                s.Nombre = servicio.Nombre;
+                s.EnPromocion = servicio.EnPromocion;
+                s.Estado = servicio.Estado;   
             }
             return await _context.SaveChangesAsync() > 0;
         }
@@ -51,10 +55,10 @@ namespace Ejercicio2_7.DLL.Repository
         public async Task<bool> LogicDeleteASYNC(int id)
         {
             Servicio s = await GetASYNC(id);
-            //if (s != null && s.Estado != false)
-            //{
-            //    s.Estado = false;
-            //}
+            if (s != null && s.Estado != false)
+            {
+                s.Estado = false;
+            }
             return await _context.SaveChangesAsync() > 0;
 
         }

@@ -9,12 +9,14 @@ namespace Ejercicio2_7.DLL.Services
 {
     public interface ITurnoService
     {
-        Task<List<Turno>> GetAllTurnosASYNC();
+        Task<List<Turno>> GetAllTurnosASYNC(string estado);
+        Task<bool> ExistByFechaASYNC(string fecha, string hora,int id);
 
         Task<Turno> GetByIdAsync(int id);
+        Task<bool> UpdateASYNC(Turno turno, string fecha, string hora);
 
-        Task<bool> SaveAsync(Turno turno);
+        Task<bool> CreateAsync(Turno turno);
 
-        Task<bool> DeleteByIdAsync(int id);
+        Task<bool> DeleteByIdAsync(int id, string motivoCancelacion);
     }
 }

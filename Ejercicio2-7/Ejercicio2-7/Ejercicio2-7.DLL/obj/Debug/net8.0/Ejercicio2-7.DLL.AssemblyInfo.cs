@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ejercicio2-7.DLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27d96bf6a38909c8c92c088e0f0de4b547051271")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a3ce93224297bfeb00bc68410bdf230a17e7126")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ejercicio2-7.DLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ejercicio2-7.DLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

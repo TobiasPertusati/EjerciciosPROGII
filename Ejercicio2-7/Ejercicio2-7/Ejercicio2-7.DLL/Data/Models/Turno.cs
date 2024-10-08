@@ -15,5 +15,9 @@ public partial class Turno
 
     public string Cliente { get; set; }
 
+    public DateOnly? FechaCancelacion { get; set; }
+
+    public string MotivoCancelacion { get; set; }
+
     public virtual ICollection<DetallesTurno> TDetallesTurnos { get; set; } = new List<DetallesTurno>();
 }

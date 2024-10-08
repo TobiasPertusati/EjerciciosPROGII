@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio2-7\\Ejercicio2-7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B00910DC-0A2F-443A-A866-6398F95093F3}|Ejercicio2-7.API\\Ejercicio2-7.API.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\ejercicio2-7\\ejercicio2-7\\ejercicio2-7.api\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B00910DC-0A2F-443A-A866-6398F95093F3}|Ejercicio2-7.API\\Ejercicio2-7.API.csproj|solutionrelative:ejercicio2-7.api\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B00910DC-0A2F-443A-A866-6398F95093F3}|Ejercicio2-7.API\\Ejercicio2-7.API.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\ejercicio2-7\\ejercicio2-7\\ejercicio2-7.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B00910DC-0A2F-443A-A866-6398F95093F3}|Ejercicio2-7.API\\Ejercicio2-7.API.csproj|solutionrelative:ejercicio2-7.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97D61AA0-5E69-44FA-B64A-9F8730DDAB0B}|Ejercicio2-7.DLL\\Ejercicio2-7.DLL.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\ejercicio2-7\\ejercicio2-7\\ejercicio2-7.dll\\data\\models\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97D61AA0-5E69-44FA-B64A-9F8730DDAB0B}|Ejercicio2-7.DLL\\Ejercicio2-7.DLL.csproj|solutionrelative:ejercicio2-7.dll\\data\\models\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B00910DC-0A2F-443A-A866-6398F95093F3}|Ejercicio2-7.API\\Ejercicio2-7.API.csproj|c:\\users\\tobia\\desktop\\tup\\repos\\programacion ii\\ejercicio2-7\\ejercicio2-7\\ejercicio2-7.api\\controllers\\turnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B00910DC-0A2F-443A-A866-6398F95093F3}|Ejercicio2-7.API\\Ejercicio2-7.API.csproj|solutionrelative:ejercicio2-7.api\\controllers\\turnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,47 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio2-7\\Ejercicio2-7\\Ejercicio2-7.API\\Program.cs",
-              "RelativeDocumentMoniker": "Ejercicio2-7.API\\Program.cs",
-              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio2-7\\Ejercicio2-7\\Ejercicio2-7.API\\Program.cs",
-              "RelativeToolTip": "Ejercicio2-7.API\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAADEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T18:24:31.771Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ServicioController.cs",
-              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio2-7\\Ejercicio2-7\\Ejercicio2-7.API\\Controllers\\ServicioController.cs",
-              "RelativeDocumentMoniker": "Ejercicio2-7.API\\Controllers\\ServicioController.cs",
-              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio2-7\\Ejercicio2-7\\Ejercicio2-7.API\\Controllers\\ServicioController.cs",
-              "RelativeToolTip": "Ejercicio2-7.API\\Controllers\\ServicioController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAwGAAAAANAAAA",
+              "Title": "TurnoController.cs",
+              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio2-7\\Ejercicio2-7\\Ejercicio2-7.API\\Controllers\\TurnoController.cs",
+              "RelativeDocumentMoniker": "Ejercicio2-7.API\\Controllers\\TurnoController.cs",
+              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio2-7\\Ejercicio2-7\\Ejercicio2-7.API\\Controllers\\TurnoController.cs",
+              "RelativeToolTip": "Ejercicio2-7.API\\Controllers\\TurnoController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAwwD0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T20:23:01.705Z",
+              "WhenOpened": "2024-10-08T16:47:25.173Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Servicio.cs",
-              "DocumentMoniker": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio2-7\\Ejercicio2-7\\Ejercicio2-7.DLL\\Data\\Models\\Servicio.cs",
-              "RelativeDocumentMoniker": "Ejercicio2-7.DLL\\Data\\Models\\Servicio.cs",
-              "ToolTip": "C:\\Users\\tobia\\Desktop\\TUP\\Repos\\PROGRAMACION II\\Ejercicio2-7\\Ejercicio2-7\\Ejercicio2-7.DLL\\Data\\Models\\Servicio.cs",
-              "RelativeToolTip": "Ejercicio2-7.DLL\\Data\\Models\\Servicio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T18:56:15.97Z",
               "EditorCaption": ""
             }
           ]

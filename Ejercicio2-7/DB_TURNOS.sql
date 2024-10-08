@@ -92,7 +92,7 @@ ALTER TABLE [T_DETALLES_TURNO]
 ADD CONSTRAINT FK_T_DETALLES_TURNOS_TURNO FOREIGN KEY ([id_turno])
 	REFERENCES T_TURNOS (id)
 
-ALTER TABLE [T_SERVICVIO]
+ALTER TABLE [T_SERVICIOS]
 ADD estado bit
 
 ALTER TABLE [T_TURNOS]
@@ -101,8 +101,7 @@ add fecha_cancelacion date
 ALTER TABLE [T_TURNOS]
 add motivo_cancelacion varchar(100)
 
-
-
+SELECT * FROM [T_TURNOS]
 
 --/****** Object: StoredProcedure [dbo].[SP_INSERTAR_DETALLES]
 --Script Date: 02/05/2024 14:05:30 ******/

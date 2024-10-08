@@ -16,6 +16,8 @@ public partial class Servicio
 
     public string EnPromocion { get; set; }
 
+    public bool? Estado { get; set; }
+
     [JsonIgnore]
     public virtual ICollection<DetallesTurno> TDetallesTurnos { get; set; } = new List<DetallesTurno>();
 }

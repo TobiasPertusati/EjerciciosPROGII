@@ -58,6 +58,7 @@ public partial class DB_TURNOSContext : DbContext
                 .HasMaxLength(1)
                 .IsUnicode(false)
                 .HasColumnName("enPromocion");
+            entity.Property(e => e.Estado).HasColumnName("estado");
             entity.Property(e => e.Nombre)
                 .IsRequired()
                 .HasMaxLength(50)
@@ -78,10 +79,15 @@ public partial class DB_TURNOSContext : DbContext
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .HasColumnName("fecha");
+            entity.Property(e => e.FechaCancelacion).HasColumnName("fecha_cancelacion");
             entity.Property(e => e.Hora)
                 .HasMaxLength(5)
                 .IsUnicode(false)
                 .HasColumnName("hora");
+            entity.Property(e => e.MotivoCancelacion)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("motivo_cancelacion");
         });
 
         OnModelCreatingPartial(modelBuilder);

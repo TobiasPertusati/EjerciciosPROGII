@@ -23,6 +23,13 @@ builder.Services.AddScoped<IServicioRepository,ServicioRepository>();
 builder.Services.AddScoped<ITurnoService, TurnoService>();
 builder.Services.AddScoped<ITurnoRepository, TurnoRepository>();
 
+builder.Services.AddCors(
+    options => options.AddPolicy("AllowFetch", app =>
+    {
+        app.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+    })
+    );
+
 
 var app = builder.Build();
 
@@ -32,6 +39,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("AllowFetch");
 
 app.UseHttpsRedirection();
 

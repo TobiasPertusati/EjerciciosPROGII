@@ -50,13 +50,13 @@ namespace Ejercicio2_7.API.Controllers
                 List<Turno> turnos = await _service.GetAllTurnosASYNC(estado);
                 if (turnos.Count == 0)
                 {
-                    return BadRequest("No se encontraron turnos.");
+                    return BadRequest(new { message = "No se encontraron turnos." });
                 }
                 return Ok(turnos);
             }
             catch (Exception)
             {
-                return StatusCode(500, "Error Interno");
+                return StatusCode(500, new { message = "Error Interno" });
             }
         }
 
@@ -68,7 +68,7 @@ namespace Ejercicio2_7.API.Controllers
                 Turno t = await _service.GetByIdAsync(id);
                 if (t == null)
                 {
-                    return BadRequest("No se encontro un turno con esa id.");
+                    return BadRequest(new { message = "No se encontro un turno con esa id." });
                 }
                 return Ok(t);
             }
@@ -88,12 +88,12 @@ namespace Ejercicio2_7.API.Controllers
 
 
                 if (await _service.ExistByFechaASYNC(turno.Fecha,turno.Hora,turno.Id))
-                    return BadRequest("Ya se encuentra un turno registrado con esa fecha y hora");
+                    return BadRequest(new { message = "Ya se encuentra un turno registrado con esa fecha y hora" });
 
 
                 DateTime fechaTurno = Convert.ToDateTime(turno.Fecha);
                 if (fechaTurno <= DateTime.Today || fechaTurno > DateTime.Today.AddDays(45))
-                    return BadRequest("Los turnos solo se pueden reservar para el dia siguiente al actual y en una fecha menor al dia de hoy + 45 dias");
+                    return BadRequest(new { message = "Los turnos solo se pueden reservar para el dia siguiente al actual y en una fecha menor al dia de hoy + 45 dias" });
 
                 //? Deberá controlar que no se pueden grabar dos veces el mismo servicio como detalle.  DONE
                 //Es decir, no puede solicitar “corte de cabello” 2 veces en el mismo turno.
@@ -103,26 +103,26 @@ namespace Ejercicio2_7.API.Controllers
                     .Where(d => d.Count() > 1)
                     .Select(d => d.Key);
                 if (duplicates.Any())
-                    return BadRequest("No puede solicitar más de 1 vez el mismo servicio en un turno");
+                    return BadRequest(new { message = "No puede solicitar más de 1 vez el mismo servicio en un turno" });
 
 
                 //? Controlar que se hayan ingresado datos de al menos un servicio.  DONE
                 if (turno.TDetallesTurnos.Count <= 0)
                 {
-                    return BadRequest("Debe solicitar al menos un servicio en un turno");
+                    return BadRequest(new { message = "Debe solicitar al menos un servicio en un turno" });
                 }
 
                 //? Al registrar un turno se deberá retornar objeto mensaje de confirmación.   DONE
                 bool res = await _service.CreateAsync(turno);
                 if (!res)
                 {
-                    return StatusCode(500, "No se pudo registrar el turno");
+                    return StatusCode(500, new { message = "No se pudo registrar el turno" });
                 }
-                return Ok("Se registro el turno con exito");
+                return Ok(new { message = "Se registro el turno con exito" });
             }
             catch (Exception)
             {
-                return StatusCode(500, "Error Interno");
+                return StatusCode(500, new { message = "Error Interno" });
             }
         }
 
@@ -135,20 +135,20 @@ namespace Ejercicio2_7.API.Controllers
                 // Actualizar los datos de una turno siempre que la fecha/hora sean anteriores a los confirmados en su creación 
                 
                 if (await _service.ExistByFechaASYNC(t.Fecha, t.Hora,t.Id))
-                    return BadRequest("Ya se encuentra un turno registrado con esa fecha y hora");
+                    return BadRequest(new { message = "Ya se encuentra un turno registrado con esa fecha y hora" });
 
                 string fecha = DateTime.Now.ToString();
                 string hora = DateTime.Now.Hour.ToString();
 
                 bool res = await _service.UpdateASYNC(t, fecha, hora);
                 if (!res)
-                    return BadRequest("No se puedo actualizar el turno.");
+                    return BadRequest(new { message = "No se puedo actualizar el turno." });
 
-                return Ok("El turno se actualizo con exito");
+                return Ok(new {message =  "El turno se actualizo con exito"} );
             }
             catch (Exception)
             {
-                return StatusCode(500, "Error Interno");
+                return StatusCode(500,new {message = " Error Interno"});
             }
         }
 
@@ -165,13 +165,13 @@ namespace Ejercicio2_7.API.Controllers
 
                 bool res = await _service.DeleteByIdAsync(id, motivoCancelacion);
                 if (!res)
-                    return BadRequest("No se encontro el turno o ya se encuentra cancelado");
+                    return BadRequest(new { message = "No se encontro el turno o ya se encuentra cancelado" });
 
-                return Ok("Se cancelo el turno con exito");
+                return Ok(new { message = "Se cancelo el turno con exito" });
             }
             catch (Exception)
             {
-                return StatusCode(500, "Error Interno");
+                return StatusCode(500, new { message = "Error Interno" });
             }
         }
     }

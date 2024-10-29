@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="sytle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <aside id="sidebard">
+            <div class="d-flex">
+                <button id="toggle-btn" type="button">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="sidebard-logo">
+                    <a href="index.html">Salon de belleza UTN</a>
+                </div>
+            </div>
+            <ul class="sidebard-nav">
+                <li class="sidebard-item">
+                    <a href="#" class="sidebard-link has-dropdown collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#perfil" aria-expanded="false" aria-controls="perfil">
+                        <i class="bi bi-person-circle"></i>
+                        <span>Mi Perfil</span>
+                    </a>
+                    <ul id="perfil" class="sidebard-dropdown list-unstyled collapse" data-bs-parent="#sidebard">
+                        <li class="sidebard-item">
+                            <a href="login.html" class="sidebard-link">Iniciar Sesión</a>
+                        </li>
+                        <li class="sidebard-item">
+                            <a href="#" class="sidebard-link">Registrarse</a>
+                        </li>
+                        <li>
+                            <a href="#" class="sidebard-link">Perfil</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebard-item">
+                    <a href="#" class="sidebard-link">
+                        <i class="bi bi-calendar-date"></i>
+                        <span>Turnos</span>
+                    </a>
+                </li>
+                <li class="sidebard-item">
+                    <a href="#" class="sidebard-link has-dropdown collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#consultas" aria-expanded="false" aria-controls="consultas">
+                        <i class="bi bi-card-checklist"></i>
+                        <span>Consultas</span>
+                    </a>
+                    <ul id="consultas" class="sidebard-dropdown list-unstyled collapse" data-bs-parent="#sidebard">
+                        <li class="sidebard-item">
+                            <a href="#" class="sidebard-link">Servicios</a>
+                        </li>
+                        <li class="sidebard-item">
+                            <a href="#" class="sidebard-link">Turnos</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="sidebard-footer">
+                <a href="#" class="sidebard-link">
+                    <i class="bi bi-box-arrow-left"></i>
+                    <span>Cerrar Sesión</span>
+                </a>
+            </div>
+        </aside>
+        <div class="main p-3">
+            <main>
+                <div class="text-center mb-4">
+                    <h1>Dashboard</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <!-- estadisticas  -->
+                    <div class="col-md-6 col-lg-4 col-xl-4 order-0 mb-4">
+                        <div class="card h-100">
+                            <div class="card-header d-flex align-items-center justify-content-between pb-0">
+                                <div class="card-title mb-0">
+                                    <h5 class="m-0 me-2">Estadisticas</h5>
+                                    <small class="text-muted">42.82k Total Sales</small>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn p-0" type="button" id="orederStatistics"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="bi bi-three-dots-vertical"></i>
+                                        <!--  -->
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="orederStatistics">
+                                        <a class="dropdown-item" href="javascript:void(0);">Refrescar</a>
+                                        <a class="dropdown-item" href="javascript:void(0);">Compartir</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <div class="d-flex flex-column align-items-center gap-1">
+                                        <h2 class="mb-2">3</h2>
+                                        <span>Total Turnos</span>
+                                    </div>
+                                    <div id="orderStatisticsChart"></div>
+                                </div>
+                                <ul class="p-0 m-0">
+                                    <li class="d-flex mb-4 pb-1">
+                                        <div class="avatar flex-shrink-0 me-3">
+                                            <span class="avatar-initial rounded bg-label-primary"><i
+                                                    class="bx bx-mobile-alt"></i></span>
+                                        </div>
+                                        <div
+                                            class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                                            <div class="me-2">
+                                                <h6 class="mb-0">Lavado de Cabello</h6>
+                                            </div>
+                                            <div class="user-progress">
+                                                <small class="fw-semibold">82.5k</small>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex mb-4 pb-1">
+                                        <div class="avatar flex-shrink-0 me-3">
+                                            <span class="avatar-initial rounded bg-label-success"><i
+                                                    class="bx bx-closet"></i></span>
+                                        </div>
+                                        <div
+                                            class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                                            <div class="me-2">
+                                                <h6 class="mb-0">Corte de Cabello</h6>
+                                            </div>
+                                            <div class="user-progress">
+                                                <small class="fw-semibold">23.8k</small>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex mb-4 pb-1">
+                                        <div class="avatar flex-shrink-0 me-3">
+                                            <span class="avatar-initial rounded bg-label-info"><i
+                                                    class="bx bx-home-alt"></i></span>
+                                        </div>
+                                        <div
+                                            class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                                            <div class="me-2">
+                                                <h6 class="mb-0">Pintado de uñas</h6>
+                                            </div>
+                                            <div class="user-progress">
+                                                <small class="fw-semibold">849k</small>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <div class="avatar flex-shrink-0 me-3">
+                                            <span class="avatar-initial rounded bg-label-secondary"><i
+                                                    class="bx bx-football"></i></span>
+                                        </div>
+                                        <div
+                                            class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                                            <div class="me-2">
+                                                <h6 class="mb-0">Depilación definitiva</h6>
+                                            </div>
+                                            <div class="user-progress">
+                                                <small class="fw-semibold">99k</small>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end estadisticas  -->
+                    <!-- Expense Overview -->
+                    <div class="col-md-6 col-lg-4 order-1 mb-4">
+                        <div class="card h-100">
+                            <div class="card-header">
+                                <ul class="nav nav-pills" role="tablist">
+                                    <li class="nav-item">
+                                        <button type="button" class="nav-link active" role="tab" data-bs-toggle="tab"
+                                            data-bs-target="#navs-tabs-line-card-income"
+                                            aria-controls="navs-tabs-line-card-income" aria-selected="true">
+                                            Ingresos
+                                        </button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button type="button" class="nav-link" role="tab">Gastos</button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button type="button" class="nav-link" role="tab">Ganancias</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-body px-0">
+                                <div class="tab-content p-0">
+                                    <div class="tab-pane fade show active" id="navs-tabs-line-card-income"
+                                        role="tabpanel">
+                                        <div class="d-flex p-4 pt-3">
+                                            <div class="avatar flex-shrink-0 me-3">
+                                                <i class="bi bi-person"></i>
+                                            </div>
+                                            <div>
+                                                <small class="text-muted d-block">Total Balance</small>
+                                                <div class="d-flex align-items-center">
+                                                    <h6 class="mb-0 me-1">$459.10</h6>
+                                                    <small class="text-success fw-semibold">
+                                                        <i class="bx bx-chevron-up"></i>
+                                                        42.9%
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="incomeChart"></div>
+                                        <div class="d-flex justify-content-center pt-4 gap-2">
+                                            <div class="flex-shrink-0">
+                                                <div id="expensesOfWeek"></div>
+                                            </div>
+                                            <div>
+                                                <p class="mb-n1 mt-1">Ingresos este mes</p>
+                                                <small class="text-muted">$39 mas que el mes pasado</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Expense Overview -->
+                </div>
+                <!-- tabla  -->
+                <div class="row justify-content-center">
+                    <div class="card col-md-10 col-sm-5">
+                        <h5 class="card-header">Servicios</h5>
+                        <div class="table-responsive text-nowrap">
+                            <table class="table table-dark">
+                                <thead>
+                                    <tr>
+                                        <th>Servicios</th>
+                                        <th>Precios</th>
+                                        <th>Promoción</th>
+                                        <th>Estado</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="table-border-bottom-0">
+                                    <tr>
+                                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Lavado de
+                                                cabello</strong></td>
+                                        <td>$3000</td>
+                                        <td>
+                                            Si
+                                        </td>
+                                        <td><span class="badge bg-label-primary me-1">Active</span></td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <button type="button" class="btn p-0 dropdown-toggle"
+                                                    data-bs-toggle="dropdown">
+                                                    <i class="bi bi-three-dots-vertical"></i>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="javascript:void(0);">
+                                                        <i class="bi bi-pencil-square"></i> Editar</a>
+                                                    <a class="dropdown-item" href="javascript:void(0);">
+                                                        <i class="bi bi-trash"></i> Deshabilitar</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Corte de
+                                                cabello</strong></td>
+                                        <td>$8000</td>
+                                        <td>
+                                            Si
+                                        </td>
+                                        <td><span class="badge bg-label-primary me-1">Active</span></td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <button type="button" class="btn p-0 dropdown-toggle"
+                                                    data-bs-toggle="dropdown">
+                                                    <i class="bi bi-three-dots-vertical"></i>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="javascript:void(0);">
+                                                        <i class="bi bi-pencil-square"></i> Editar</a>
+                                                    <a class="dropdown-item" href="javascript:void(0);">
+                                                        <i class="bi bi-trash"></i> Deshabilitar</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Pintado de
+                                                Uñas</strong></td>
+                                        <td>$15000</td>
+                                        <td>
+                                            No
+                                        </td>
+                                        <td><span class="badge bg-label-primary me-1">Active</span></td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <button type="button" class="btn p-0 dropdown-toggle"
+                                                    data-bs-toggle="dropdown">
+                                                    <i class="bi bi-three-dots-vertical"></i>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="javascript:void(0);">
+                                                        <i class="bi bi-pencil-square"></i> Editar</a>
+                                                    <a class="dropdown-item" href="javascript:void(0);">
+                                                        <i class="bi bi-trash"></i> Deshabilitar</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Depilación
+                                                definitiva</strong></td>
+                                        <td>$7000</td>
+                                        <td>
+                                            No
+                                        </td>
+                                        <td><span class="badge bg-label-primary me-1">Active</span></td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <button type="button" class="btn p-0 dropdown-toggle"
+                                                    data-bs-toggle="dropdown">
+                                                    <i class="bi bi-three-dots-vertical"></i>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="javascript:void(0);">
+                                                        <i class="bi bi-pencil-square"></i> Editar</a>
+                                                    <a class="dropdown-item" href="javascript:void(0);">
+                                                        <i class="bi bi-trash"></i> Deshabilitar</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <div class="container">
+                <footer class="my-4 pt-4 main-footer">
+                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                        <li class="nav-item"><a onclick="info()" href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+                    </ul>
+                    <p class="text-center text-body-secondary">© 2024 412301, 1w3</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        function info(){
+            alert("412301-Pertusati-Tobias")
+        }
+    </script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

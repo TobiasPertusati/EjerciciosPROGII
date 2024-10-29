@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="sytle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <aside id="sidebard">
+            <div class="d-flex">
+                <button id="toggle-btn" type="button">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="sidebard-logo">
+                    <a href="index.html">Salon de belleza UTN</a>
+                </div>
+            </div>
+            <ul class="sidebard-nav">
+                <li class="sidebard-item">
+                    <a href="#" class="sidebard-link has-dropdown collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#perfil" aria-expanded="false" aria-controls="perfil">
+                        <i class="bi bi-person-circle"></i>
+                        <span>Mi Perfil</span>
+                    </a>
+                    <ul id="perfil" class="sidebard-dropdown list-unstyled collapse" data-bs-parent="#sidebard">
+                        <li class="sidebard-item">
+                            <a href="login.html" class="sidebard-link">Iniciar Sesión</a>
+                        </li>
+                        <li class="sidebard-item">
+                            <a href="#" class="sidebard-link">Registrarse</a>
+                        </li>
+                        <li>
+                            <a href="#" class="sidebard-link">Perfil</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebard-item">
+                    <a href="#" class="sidebard-link">
+                        <i class="bi bi-calendar-date"></i>
+                        <span>Turnos</span>
+                    </a>
+                </li>
+                <li class="sidebard-item">
+                    <a href="#" class="sidebard-link has-dropdown collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#consultas" aria-expanded="false" aria-controls="consultas">
+                        <i class="bi bi-card-checklist"></i>
+                        <span>Consultas</span>
+                    </a>
+                    <ul id="consultas" class="sidebard-dropdown list-unstyled collapse" data-bs-parent="#sidebard">
+                        <li class="sidebard-item">
+                            <a href="#" class="sidebard-link">Servicios</a>
+                        </li>
+                        <li class="sidebard-item">
+                            <a href="#" class="sidebard-link">Turnos</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="sidebard-footer">
+                <a href="#" class="sidebard-link">
+                    <i class="bi bi-box-arrow-left"></i>
+                    <span>Cerrar Sesión</span>
+                </a>
+            </div>
+        </aside>
+        <div class="main p-3">
+            <main>
+                <div class="text-center my-4">
+                    <h1>Iniciar Sesión</h1>
+                </div>
+                <form class="row justify-content-center my-4">
+                    <div data-mdb-input-init class="col-md-8 form-outline mb-4">
+                        <input type="email" id="form2Example1" class="form-control" />
+                        <label class="form-label" for="form2Example1">Email address</label>
+                    </div>
+
+                    <div data-mdb-input-init class="col-md-8 form-outline mb-4">
+                        <input type="password" id="form2Example2" class="form-control" />
+                        <label class="form-label" for="form2Example2">Password</label>
+                    </div>
+
+                    <div class="row mb-4 d-flex justify-content-center">
+                        <div class="col-md-4 d-flex justify-content-center">
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                                <label class="form-check-label" for="form2Example31"> Remember me </label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 d-flex justify-content-center">
+
+                            <a href="#!">Forgot password?</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-8 d-flex justify-content-center mb-4">
+                        <button type="button" data-mdb-button-init data-mdb-ripple-init
+                            class="btn btn-primary btn-block mb-4">Sign in</button>
+                    </div>
+                    <div class="text-center">
+                        <p>Not a member? <a href="#!">Register</a></p>
+                        <p>or sign up with:</p>
+                        <button type="button" data-mdb-button-init data-mdb-ripple-init
+                            class="btn btn-link btn-floating mx-1">
+                            <i class="bi bi-facebook"></i>
+                        </button>
+
+                        <button type="button" data-mdb-button-init data-mdb-ripple-init
+                            class="btn btn-link btn-floating mx-1">
+                            <i class="bi bi-google"></i>
+                        </button>
+
+                        <button type="button" data-mdb-button-init data-mdb-ripple-init
+                            class="btn btn-link btn-floating mx-1">
+                            <i class="bi bi-twitter-x"></i>
+                        </button>
+
+                        <button type="button" data-mdb-button-init data-mdb-ripple-init
+                            class="btn btn-link btn-floating mx-1">
+                            <i class="bi bi-github"></i>
+                        </button>
+                    </div>
+                </form>
+            </main>
+            <div class="container">
+                <footer class="my-4 pt-4 main-footer">
+                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                        <li class="nav-item"><a onclick="info()" href="#"
+                                class="nav-link px-2 text-body-secondary">About</a></li>
+                    </ul>
+                    <p class="text-center text-body-secondary">© 2024 412301, 1w3</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        function info() {
+            alert("412301-Pertusati-Tobias")
+        }
+    </script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

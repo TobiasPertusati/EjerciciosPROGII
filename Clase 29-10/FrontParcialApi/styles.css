@@ -1,0 +1,73 @@
+li{
+    text-decoration: none;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto en blanco */
+    font-family: 'Arial', sans-serif; /*letrita*/
+}
+
+
+.navbar {
+    background-color: #1a1a1a; /* Fondo del navbar */
+}
+
+.navbar-brand,
+.nav-link {
+    color: #f8f9fa !important; /* Color del texto de la marca y enlaces */
+}
+
+.nav-link:hover {
+    color: white !important; /* Color de los enlaces al pasar el mouse */
+}
+
+/* Estilo de la tabla */
+.table {
+    background-color: #1a1a1a; /* Fondo de la tabla */
+    color: #ffffff; /* Color del texto en la tabla */
+    border: 1px solid #444; /* Borde de la tabla */
+}
+
+.table th {
+    background-color: #2a2a2a; /* Fondo de los encabezados */
+    color: #ffc107; /* Color del texto de los encabezados */
+}
+
+.table td {
+    border-top: 1px solid #444; /* Borde superior de las celdas */
+}
+
+/* Estilo para los botones y enlaces de acciones */
+.table ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Mostrar en línea */
+}
+
+.table li {
+    margin-right: 10px; /* Espaciado entre íconos */
+}
+
+.table li a {
+    color: white; /* Color de los íconos */
+    transition: color 0.3s; /* Transición suave */
+}
+
+.table li a:hover {
+    color: #ffffff; /* Color de los íconos al pasar el mouse */
+}
+
+/* Títulos */
+h2 {
+    margin: 20px 0; /* Margen alrededor del título */
+    text-align: center; /* Centrando el título */
+    color: #ffc107; /* Color del título */
+}
